@@ -7,8 +7,8 @@
   }
   body{
     font-family: montserrat;
-    /* background-color: #333333; */
-    background-image: url("https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: #333333;
+    background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260g");
   }
   nav{
     background: #1E1F26;
@@ -72,7 +72,7 @@
       width: 100%;
       height: 100vh;
       background: #1D1D1D;
-      top: 9%;
+      top: 14%;
       left: -100%;
       text-align: center;
       transition: all .5s;
@@ -93,96 +93,74 @@
       left: 0;
     }
   }
-  .skills-text{
-    background-color: white;
-    width: 20%;
-    height: 30%;
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    border: 3px solid red;
-  }
-  .skills-div{
-      position: fixed;
-      width: 100%;
-      height: 12%;
-      background-color: #2C2C2D;
-      text-align: center;
-      bottom: 0;
-  }
-  .html-div{
+.projects{
+  width: 100%;
+  height: 90px;
+  background-color: #1D1D1D;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+}
+.github{
   width: 10%;
   height: 70%;
   background-color: white;
   border: 2px solid black;
   float: left;
-  margin-left: 20% ;
+  margin-left: 35% ;
 }
-.skill-html{
-  width: 65%;
+.git{
+  width: 80%;
   height: 100%;
 }
-.css-div{
+.linkedin{
   width: 10%;
   height: 70%;
   background-color: white;
   border: 2px solid black;
-  position: absolute;
-  left: 30%;
+  float: right;
+  margin-right: 35%;
 }
-.skill-css{
+.linked{
   height: 100%;
-  width: 50%;
+  width: 80%;
 }
-.js-div{
+.twitter{
   width: 10%;
   height: 70%;
   background-color: white;
   margin: auto;
   border: 2px solid black;
-  left: 40%;
+  margin-left: 25%;
   position: absolute;
   top: 0%;
 }
-.skill-js{
+.tweet{
   height: 100%;
-  width: 50%;
+  width: 90%;
 }
-.c-div{
+.facebook{
   width: 10%;
   height: 70%;
   background-color: white;
-  position: absolute;
+  margin: auto;
   border: 2px solid black;
-  right: 40%;
+  margin: auto;
 }
-.skill-c{
+.facebk{
   height: 100%;
   width: 60%;
 }
-.php-div{
+.instagram{
   width: 10%;
   height: 70%;
   background-color: white;
   border: 2px solid black;
   position: absolute;
   top: 0%;
-  right: 30%;
+  right: 25%;
 }
-.skill-php{
+.insta{
   width: 50%;
-  height: 100%;
-}
-.sql-div{
-  width: 10%;
-  height: 70%;
-  background-color: white;
-  border: 2px solid black;
-  position: absolute;
-  top: 0%;
-  right: 20%;
-}
-.skill-sql{
-  width: 70%;
   height: 100%;
 }
