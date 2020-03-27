@@ -8,7 +8,7 @@
   body{
     font-family: montserrat;
     background-color: #333333;
-    background-image: url("https://images.pexels.com/photos/374710/pexels-photo-374710.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260g");
+    background-image: url("https://images.wallpaperscraft.com/image/trolley_stop_city_evening_lighting_119292_1920x1080.jpg");
   }
   nav{
     background: #1E1F26;
@@ -72,7 +72,6 @@
       width: 100%;
       height: 100vh;
       background: #1D1D1D;
-      top: 14%;
       left: -100%;
       text-align: center;
       transition: all .5s;
@@ -93,10 +92,28 @@
       left: 0;
     }
   }
+  .kaleem{
+    height: 80px;
+    width: 70px;
+    transition: transform .2s;
+    margin-top: 24px;
+}
+.info-text{
+  width: 250px;
+  height: 280px;
+  background-color: #2F4F4F;
+  border: 3px solid black;
+  margin: 10% auto;
+  text-align: center;
+}
+.kaleem:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
 .projects{
   width: 100%;
   height: 90px;
-  background-color: #1D1D1D;
   position: fixed;
   bottom: 0;
   text-align: center;
