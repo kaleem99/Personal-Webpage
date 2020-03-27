@@ -106,8 +106,8 @@ a.active,a:hover{
   height: 380px;
   text-align: center;
   margin: 8% auto;
-  background-color:	orangered;
-  border: 8px solid #1E1F26;
+  background-color:	 #1E1F26;
+  border: 8px solid orangered;
 }
 .kaleem:hover {
   -ms-transform: scale(1.5); /* IE 9 */
