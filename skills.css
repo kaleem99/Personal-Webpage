@@ -7,7 +7,8 @@
   }
   body{
     font-family: montserrat;
-    background-image: url("https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://images.unsplash.com/photo-1539448455561-25e1e5821f70?ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    color: #000000;
   }
   nav{
   background: #1E1F26;
@@ -92,12 +93,14 @@ a.active,a:hover{
   }
 }
   .skills-text{
-    background-color: wheat;
-    width: 270px;
-    height: 300px;
+    background-color: #F5F5DC;
+    width: 320px;
+    height: 350px;
     margin: 10% auto;
-    border: 3px solid red;
     text-align: center;
+    text-decoration-color: white;
+    border: 3px solid black;
+    /* opacity: 0.8; */
   }
   .skills-div{
       position: fixed;
@@ -107,50 +110,51 @@ a.active,a:hover{
       text-align: center;
       bottom: 0;
   }
+
   .html-div{
   width: 10%;
   height: 70%;
-  background-color: white;
-  border: 2px solid black;
+  background-color: none;
+  /* border: 2px solid black; */
   float: left;
   margin-left: 20% ;
 }
 .skill-html{
-  width: 65%;
+  width: 50%;
   height: 100%;
 }
 .css-div{
   width: 10%;
   height: 70%;
-  background-color: white;
-  border: 2px solid black;
+  background-color: none;
+  /* border: 2px solid black; */
   position: absolute;
   left: 30%;
 }
 .skill-css{
   height: 100%;
-  width: 50%;
+  width: 40%;
 }
 .js-div{
   width: 10%;
   height: 70%;
-  background-color: white;
+  background-color: none;
   margin: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   left: 40%;
   position: absolute;
   top: 0%;
 }
 .skill-js{
   height: 100%;
-  width: 50%;
+  width: 40%;
 }
 .c-div{
   width: 10%;
   height: 70%;
-  background-color: white;
+  background-color: none;
   position: absolute;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   right: 40%;
 }
 .skill-c{
@@ -160,8 +164,8 @@ a.active,a:hover{
 .php-div{
   width: 10%;
   height: 70%;
-  background-color: white;
-  border: 2px solid black;
+  background-color: none;
+  /* border: 2px solid black; */
   position: absolute;
   top: 0%;
   right: 30%;
@@ -172,14 +176,14 @@ a.active,a:hover{
 }
 .sql-div{
   width: 10%;
-  height: 70%;
-  background-color: white;
-  border: 2px solid black;
+  height: 80%;
+  background-color: none;
+  /* border: 2px solid black; */
   position: absolute;
   top: 0%;
   right: 20%;
 }
 .skill-sql{
-  width: 70%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
 }
