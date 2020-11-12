@@ -29,20 +29,25 @@
     <div class="information">
     <br>
     <div class="div-form">
-        <form name="myForm" >
-            <br>
-          <label for="Fname">Name</label><br>
-           <input type="text" id="Fname" name="Fname" value="" class="btn-submit"><br>
-           <label for="Lname">Surname</label><br>
-           <input type="text" id="Lname" name="Lname" value="" class="btn-submit"><br>
+        <form name="myForm" action="mailto:kaleem1999@outlook.com" method="post">
+          <label for="FullName">Name Surname</label><br>
+           <input type="text" id="FullName" name="FullName" value="" class="btn-submit" required><br>
            <label for="email">email</label><br>
-           <input type="text" id="email" name="email" value="" class="btn-submit"><br><br>
+           <input type="text" id="email" name="email" value="" class="btn-submit" required><br>
+           <label for="contact">contact</label><br>
+           <input type="number" id="number" name="number" value="" class="btn-submit"><br>
+           <label for="Subject">Subject</label><br>
+           <input type="text" id="Subject" name="Subject" value="" class="btn-submit" required><br>
+           <label for="Message">Message</label><br>
+           <textarea class="message-form" id="message"></textarea>
            <input type="submit" value="Submit">
         </form>
 
 
     </div>
     </div>
+   
+  
 
   </body>
 </html>
