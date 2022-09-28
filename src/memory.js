@@ -1,5 +1,5 @@
 var array = ["A", "A", "B", "B", "C", "C", "D", "D", "E", "E", "F", "F"];
-
+console.log(array);
 var flipBack = "", firstvalue, secondValue, cardsHit = 0, cardChosen = 0;
 
 function shuffleArray() {
