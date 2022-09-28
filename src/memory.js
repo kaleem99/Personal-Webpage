@@ -9,6 +9,7 @@ function shuffleArray() {
     array[i] = array[j];
     array[j] = temp;
   }
+  console.log("hello World 2.0")
 }
 shuffleArray();
 
